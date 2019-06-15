@@ -1,7 +1,7 @@
 # Grab-Computer-Vision
-Classify car model and make
+## Classify car model and make
 
-#### Steps:<br>
+### Steps:<br>
 1. Download car dataset from Stanford.<br>
 2. Data Exploration.
     - Get the labels.
@@ -24,3 +24,8 @@ Classify car model and make
     - Precision: 0.008881<br>
     - Recall: 0.008929<br>
     - F1: 0.007560<br>
+
+### Note<br>
+Accuracy, Precision, Recall, and F1 is generated from predicting images one by one using ScikitLearn library.
+These results seems to be contradicted with the accuracy from keras.evaluate_generator.
+I will examine this matter in the future.

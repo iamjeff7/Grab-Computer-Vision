@@ -8,7 +8,9 @@ Classify car model and make
     - Match labels with index.
     - Import train dataset.
     - Visualize data.
+    - ![car](car_sample.png)
     - Take image just only in the bbox to reduce background noise.
+    - ![car](car_sample_no_bbox.png)
     - Save the images in folder corresponding to their label.
 3. Import Efficientnet B0 image classifier.
 4. Split data into train and test dataset.

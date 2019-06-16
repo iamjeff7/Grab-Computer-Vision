@@ -19,11 +19,11 @@
 7. Train the model.
 8. Visualize result.
     <br>![Loss and Accuracy](loss_acc.png)
-    - Keras accuracy: 0.793333<br>
-    - Accuracy: 0.008881<br>
-    - Precision: 0.008881<br>
-    - Recall: 0.008929<br>
-    - F1: 0.007560<br>
+    - Keras_accuracy: 0.866667<br>
+    - Accuracy: 0.009769<br>
+    - Precision: 0.009769<br>
+    - Recall: 0.009769<br>
+    - F1: 0.009071<br>
 
 ### Note<br>
 Accuracy, Precision, Recall, and F1 is generated from predicting images one by one using ScikitLearn library.
